@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 
 class About extends Component {
-  return (
+  state ={
     <div>
       <p>
         Stephanie became part of the U.S. Marine Corps in 2003. Upon being
@@ -25,7 +25,7 @@ class About extends Component {
         https://spicystephy.github.io/Advanced-CSS-Portfolio/
       </p>
     </div>
-  );
+  
 }
 
 export default About;
