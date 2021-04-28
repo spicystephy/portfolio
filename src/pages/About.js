@@ -1,7 +1,8 @@
-import React, { Component } from "react";
+import React from "react";
 
-class About extends Component {
-  state ={
+
+function About() {
+  return (
     <div>
       <p>
         Stephanie became part of the U.S. Marine Corps in 2003. Upon being
@@ -21,11 +22,10 @@ class About extends Component {
       <p>
         Contact me at stephaniemzavala@gmail.com or through GitHub at
         spicystephy for any questions.
-        https://github.com/spicystephy/Advanced-CSS-Portfolio.git
-        https://spicystephy.github.io/Advanced-CSS-Portfolio/
+        https://github.com/spicystephy/portfolio.git
       </p>
     </div>
-  
+  );
 }
 
 export default About;
