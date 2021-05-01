@@ -1,20 +1,21 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./style.css";
+import selfie from "../../images/selfie.jpeg"
 
 function Header() {
   return (
     <nav className="navbar" role="navigation" aria-label="main navigation">
       <figure className="image is-96x96">
-        <img
-          className="is-rounded navbar-item"
-          src="./Assets/IMG_1432.jpeg"
+        <img 
+          className="selfie is-rounded"
+          src={selfie}
           id="profile"
           alt="Stephanie Zavala"
         />
       </figure>
       <div id="navbarBasicExample" className="navbar-menu">
-        <div className="navbar-start">
+        <div className="navbar-end">
           <Link
             className="navbar-item"
             to="/"
