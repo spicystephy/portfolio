@@ -1,19 +1,25 @@
 .footer { 
-    /* display: flex; */
-    /* justify-content: space-evenly;
-    flex-direction:row; */
+    position: absolute;
+    bottom: 0;
     width: 100%;
+
 }
 
-.icon-text{
-/* flex-direction: row; */
-width: 25%;
-/* justify-content: space-around;
-align-items: baseline; */
-}
+/* .icon-text{
+display: flex;
+align-items: baseline;
+} */
 
 /* .flex-icon{
     display: flex;
     flex-direction: row;
     width: 100%;
 } */
+
+
+
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
