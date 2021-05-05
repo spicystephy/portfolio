@@ -3,7 +3,7 @@ import "./style.css";
 
 function Footer() {
   return (
-    <footer className="footer">
+    <div className="footer">
       {/* <div id="contact-me"> */}
       <div className="content">
         {/* <div className="content" style={{width:"100%", flexDirection:""}}> */}
@@ -13,7 +13,7 @@ function Footer() {
           <span>
             <a href="mailto:stephaniemzavala@gmail.com">
               <span className="icon">
-                <i className="fas fa-envelope-square fa-5x"></i>
+                <i className="fas fa-envelope-square fa-3x"></i>
               </span>
             </a>
           </span>
@@ -23,7 +23,7 @@ function Footer() {
           <span>
             <a href="https://github.com/spicystephy">
               <span className="icon">
-                <i className="fab fa-github-square fa-5x"></i>
+                <i className="fab fa-github-square fa-3x"></i>
               </span>
             </a>
           </span>
@@ -32,7 +32,7 @@ function Footer() {
           <span>
             <a href="https://www.linkedin.com/in/stephanie-zavala-172995117">
               <span className="icon">
-                <i className="fab fa-linkedin fa-5x"></i>
+                <i className="fab fa-linkedin fa-3x"></i>
               </span>
             </a>
           </span>
@@ -41,7 +41,7 @@ function Footer() {
           <span>
             <a href="https://user-images.githubusercontent.com/77809381/114598503-d0396c00-9c46-11eb-937d-9919f3ee4f77.png">
               <span className="icon">
-                <i className="far fa-file-alt fa-5x"></i>
+                <i className="far fa-file-alt fa-3x"></i>
               </span>
             </a>
           </span>
@@ -50,7 +50,7 @@ function Footer() {
         {/* </div> */}
       </div>
       {/* </div> */}
-    </footer>
+    </div>
   );
 }
 

@@ -5,20 +5,19 @@ import Future from "./pages/Future";
 import Work from "./pages/Work";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import Container from "./components/Container";
 
 function App() {
   return (
     <Router>
-      <div>
-        <Header />
-
+      <Header />
+      <Container>
         <Route exact path="/" component={About} />
         <Route exact path="/about" component={About} />
         <Route exact path="/work" component={Work} />
         <Route exact path="/future" component={Future} />
-
-        <Footer />
-      </div>
+      </Container>
+      <Footer />
     </Router>
   );
 }
