@@ -1,4 +1,15 @@
 .selfie{
-    margin-left: 10px;
-    margin-top: 10px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.navbar-menu{
+    margin-top: 15px;
+    margin-right: 40px;
+    
+}
+
+.navbar-item{
+    display: flex;
+    justify-content: space-evenly;
 }
