@@ -17,7 +17,7 @@ function Header() {
       <div className="navbar-menu">
         <div className="navbar-end has-navbar-fixed-top">
           <Link
-            className="navbar-item"
+            // className="navbar-item"
             to="/"
             className={
               window.location.pathname === "/" ||
@@ -29,7 +29,7 @@ function Header() {
             <strong>About Me</strong>
           </Link>
           <Link
-            className="navbar-item"
+            // className="navbar-item"
             to="/work"
             className={
               window.location.pathname === "/work"
@@ -40,7 +40,7 @@ function Header() {
             <strong>My Work</strong>
           </Link>
           <Link
-            className="navbar-item"
+            // className="navbar-item"
             to="/future"
             className={
               window.location.pathname === "/future"
