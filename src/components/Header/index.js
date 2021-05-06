@@ -5,7 +5,7 @@ import selfie from "../../images/selfie.jpeg"
 
 function Header() {
   return (
-    <nav className="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+    <nav className="navbar" role="navigation" aria-label="main navigation">
       <figure className="image is-64x64">
         <img 
           className="selfie is-rounded"
@@ -22,8 +22,8 @@ function Header() {
             className={
               window.location.pathname === "/" ||
               window.location.pathname === "/about"
-                ? "nav-link active"
-                : "nav-link"
+                ? "navbar-item is-active"
+                : "navbar-item"
             }
           >
             <strong>About Me</strong>
@@ -33,8 +33,8 @@ function Header() {
             to="/work"
             className={
               window.location.pathname === "/work"
-                ? "nav-link active"
-                : "nav-link"
+                ? "navbar-item is-active"
+                : "navbar-item"
             }
           >
             <strong>My Work</strong>
@@ -44,8 +44,8 @@ function Header() {
             to="/future"
             className={
               window.location.pathname === "/future"
-                ? "nav-link active"
-                : "nav-link"
+                ? "navbar-item is-active"
+                : "navbar-item"
             }
           >
             <strong> Future Projects</strong>

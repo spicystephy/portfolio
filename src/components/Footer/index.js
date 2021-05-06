@@ -3,7 +3,7 @@ import "./style.css";
 
 function Footer() {
   return (
-    <div className="footer">
+    <div className="footer  is-fixed-bottom">
       {/* <div id="contact-me"> */}
       <div className="content">
         {/* <div className="content" style={{width:"100%", flexDirection:""}}> */}

@@ -4,27 +4,40 @@ import Container from "../components/Container";
 function About() {
   return (
     <div className="section">
-      <Container style={{ marginTop: 150 }}>
-        <div className="container is-fluid">
+      <Container>
+        <div className="content is-medium">
           <p>
-            Stephanie became part of the U.S. Marine Corps in 2003. Upon being
-            medically retired for stage III colon cancer, she began to research
+            I joined the U.S. Marine Corps in 2003. Upon being
+            medically retired for stage III colon cancer, I began to research
             cancer and realized that there was a strong relationship between
-            some cancers and food. After finishing with chemotherapy, she moved
-            back home to pursue more knowledge in nutrition. She graduated from
+            some cancers and food. After finishing with chemotherapy, I moved
+            back home to pursue more knowledge in nutrition. I graduated from
             the University of Arizona with a B.S. in Nutritional Sciences and a
-            minor in chemistry. She has worked several years teaching classes
+            minor in chemistry. I has worked several years teaching classes
             and providing coaching for people who wanted to make changes for the
             betterment of their health.
-          </p>
+          </p></div>
+          <div className="content is-medium">
           <p>
-            Currently attending a 12 week course that covers the full-stack
-            curriculum. Please check back for updates for realized projects.
-          </p>
-          <p style={{ marginBottom: 100 }}>
-            Contact me through the links at the bottom of the page.
-          </p>
-        </div>
+            Currently, I am attending a 12 week course that covers the full-stack, web-development
+            curriculum. Please check back for updates of realized projects as
+            well as a few of the projects I have worked on so far. Curriculum covered:
+          </p></div>
+          <div className="content is-medium">
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Bootstrap</li>
+            <li>React.js</li>
+            <li>MySql</li>
+            <li>MongoDB</li>
+            <li>Express</li>
+            <li>Sequelize</li>
+            <li>MERN Stack</li>
+          </ul></div>
+          
+        
       </Container>
     </div>
   );

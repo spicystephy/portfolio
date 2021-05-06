@@ -3,13 +3,22 @@
     margin-top: 15px;
 }
 
+.navbar{
+    /* padding: 100px; */
+    height: 100px;
+    background-color: #ddbea9;
+}
+
 .navbar-menu{
     margin-top: 15px;
     margin-right: 40px;
-    
+
 }
 
-.navbar-item{
-    display: flex;
-    justify-content: space-evenly;
-}
+/* .navbar-end {
+    padding:1rem;
+} */
+
+/* .navbar-item{
+    padding: 100px;
+} */

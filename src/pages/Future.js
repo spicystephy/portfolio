@@ -4,7 +4,7 @@ import Container from "../components/Container";
 function Future() {
   return (
     <div>
-      <Container style={{ marginTop: 150 }}>
+      <Container style={{ marginTop: 150, marginLeft: 80, marginRight:80 }}>
         <p style={{ margin: 50 }}>
           Totonki Tortilla Warmers is a one-of-a-kind business built by my mom.
           She has been selling her homemade tortilla warmers on Etsy and local
@@ -35,7 +35,7 @@ function Future() {
           to a public restroom they visited to inform future pit-stoppers of
           what to expect.
         </p>
-        <p style={{ marginLeft:100, marginBottom:100 }}>
+        <p style={{ marginLeft:100, marginRight:100, marginBottom:100 }}>
           *Update:* Rate that Restroom has been created and is called Bathroom
           Buddy. Find it under the My Work tab! This project has 3
           collaborators; myself,
